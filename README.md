@@ -1,2 +1,2 @@
 # Digitalni-Sat
-Digitalni sat koji pokazuje vreme u gornjoj liniji displeja i alarm u donjoj. Pri poklapanju vremena i alarma. Podesavanje vremena i alarma se moze vrsiti preko tastera na mikrokontroleru AT89C51RC2 ili preko UART komunikacije.
+Implement a digital clock with an alarm. Display current and alarm time as HH:MM:SS (updated every sec). Set times via buttons or a custom serial protocol. When times match, send a serial message. Here it was used AT89C51RC2 microcontroler. 
